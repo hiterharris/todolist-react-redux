@@ -9,11 +9,11 @@ export default class App extends Component {
   render() {
     const store = createStore(rootReducer)
     return (
-      <div className="App">
+      <div className='app'>
         <h1>To Do List</h1>
         <Provider store={store}>
           <Main />
-        </Provider>,
+        </Provider>
       </div>
     );
   }
