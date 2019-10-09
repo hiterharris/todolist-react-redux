@@ -3,12 +3,13 @@ import Footer from './Footer';
 import AddTodo from '../containers/AddTodo';
 import VisibleTodoList from '../containers/VisibleTodoList';
 
-const ListContainer = () => (
-  <div>
+const App = () => (
+  <div className='app'>
+    <h1 className='header'>To Do List</h1>
     <AddTodo />
     <VisibleTodoList />
     <Footer />
   </div>
 );
 
-export default ListContainer;
+export default App;
