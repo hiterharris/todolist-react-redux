@@ -1,7 +1,64 @@
+/*  App   */
 .app {
   text-align: center;
 }
+.header {
+  font-weight: 300;
+}
 
+
+  /* Link   */
 .link {
-  margin-left: 25px;
+  display:inline-block;
+  padding: .25% 1%;
+  margin: 0% .75%;
+  border: none;
+  border-radius:.35em;
+  box-sizing: border-box;
+  text-decoration:none;
+  background-color: #3369ff;
+  font-weight:300;
+  font-size: 18px;
+  color:white;
+  text-align:center;
+  transition: 0.15s;
+}
+
+
+/*   AddToDo   */
+.input {
+  height: 45px;
+  width: 25%;
+  font-size: 18px;
+}
+.add-button {
+  display:inline-block;
+  padding: .5% 2%;
+  margin: 0% 1%;
+  border: none;
+  border-radius:.35em;
+  box-sizing: border-box;
+  text-decoration:none;
+  background-color: #3369ff;
+  font-weight:300;
+  font-size: 18px;
+  color:white;
+  text-align:center;
+  transition: 0.15s;
+}
+button:hover {
+  color:#FFFFFF;
+  transform: scale(1.1); 
+}
+
+  /* ToDo   */
+.todo {
+  font-size: 24px;
+  list-style: none;
+}
+
+
+  /* Footer   */
+.show {
+  font-size: 24px;
 }

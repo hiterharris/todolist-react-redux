@@ -3,7 +3,7 @@ import Footer from './Footer';
 import AddTodo from '../containers/AddTodo';
 import VisibleTodoList from '../containers/VisibleTodoList';
 
-const Main = () => (
+const ListContainer = () => (
   <div>
     <AddTodo />
     <VisibleTodoList />
@@ -11,4 +11,4 @@ const Main = () => (
   </div>
 );
 
-export default Main;
+export default ListContainer;
