@@ -1,4 +1,5 @@
 import React from 'react';
+// 2. DISPATCH
 import { connect } from 'react-redux';
 import { addTodo } from '../actions';
 import '../App.css';
