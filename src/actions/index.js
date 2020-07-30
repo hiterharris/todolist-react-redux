@@ -1,4 +1,4 @@
-// 1. ACTIONS
+// 4. ACTIONS
 let nextTodoId = 0;
 export const addTodo = text => ({
   type: 'ADD_TODO',

@@ -1,4 +1,4 @@
-// 3. REDUCERS
+// 2. REDUCERS
 const todos = (state = [], action) => {
   switch (action.type) {
     case 'ADD_TODO':

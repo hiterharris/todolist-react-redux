@@ -1,4 +1,3 @@
-// 5. RENDER COMPONENT
 import React from 'react';
 import Footer from './Footer';
 import AddTodo from '../containers/AddTodo';
